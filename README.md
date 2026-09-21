@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# ReaspbqerryPi_WebServer
-
-student2에서 수정2
-=======
 # RaspberryPi WebServer
 
 2026학년도 2학기 웹 서버를 이용한 센서 제어
@@ -20,4 +15,3 @@ student2에서 수정2
 
 ## 진행 상황
 - ch01 : 가상환경 및 개발 환경 설정
->>>>>>> main
