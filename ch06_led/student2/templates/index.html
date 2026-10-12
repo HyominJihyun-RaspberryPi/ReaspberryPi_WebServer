@@ -10,9 +10,12 @@
     <div class="container text-center mt-5">
         <h2>LED ON / OFF</h2>
         <div>
-            <img id="led1" src="/static/off.png" width="100" alt="led">
-	    <img id="led2" src="/static/off.png" width="100" alt="led">
-        </div>
+    		{% if is_on %}
+    		<img id="led" src="/static/on.png" width="100" alt="led">
+    		{% else %}
+    		<img id="led" src="/static/off.png" width="100" alt="led">
+    		{% endif %}
+	</div>
         <input class="btn btn-primary1" id="on1" type="button" value="ON">
         <input class="btn btn-success1" id="off1" type="button" value="OFF">
 	<input class="btn btn-primary2" id="on2" type="button" value="ON">
